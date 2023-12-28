@@ -54,3 +54,4 @@ git restore Commands this commad restore us to the last commit version
 
 13. git remote <old-name> <new-name> -> To rename a repo Connection
 14. git pull <connection-name> <branch-name> ->To pull the changes made to the remote repo to the local repo.
+
