@@ -80,3 +80,4 @@ git restore Commands this commad restore us to the last commit version
   Also you can not git pull 
   if the working directory and the staging area are not clean that is there is no modified file is there that is pending to commit 
   first you would have to commit those changes or it will abort the pull
+  
