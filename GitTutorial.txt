@@ -56,6 +56,8 @@ git restore Commands this commad restore us to the last commit version
 
 14. git pull <connection-name> <branch-name> ->To pull the changes made to the remote repo to the local repo.
 
+
+
 //Recommended Practice 
   first try to pull before pushing changes of your code to remote repo
   as then your code will always be updated to latest changes 
