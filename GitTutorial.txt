@@ -45,3 +45,9 @@ git restore Commands this commad restore us to the last commit version
      in that file it just revert back to previous commit and get the file in the working area 
 
 9. git diff <Hash1> <Hash2> ->  this command is used if we want to know diffenece between two commits; 
+
+10. git remote -> To See How many and what connections we have to remote repositories
+
+11. git remote add <connection-name(Mostly prefferd orgin for first one)> <repo-link>
+
+12. git push <connection-name> <branch-name>
