@@ -33,3 +33,10 @@ git restore Commands this commad restore us to the last commit version
    But if the file has been staged then the changes done are now in the staging area and we would have to unstage the changes first for that the command is 
    git restore --staged <fileName>  
    after this we can do git restore to restore to the previous commit 
+
+8. Difference between git rm and git restore 
+   1.git rm is for files that have no single commit and it also removes the git functionality from a file 
+     its like if we want to remove changes from being tracked we use git rm
+  
+   2.git restore is for reverting back to the previous commit and it also does not remove the git from tracking changes 
+     in that file it just revert back to previous commit and get the file in the working area 
