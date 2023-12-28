@@ -17,4 +17,4 @@ and this .git folder manages the functionality of git
  
 
  3.`Repository Area` -> This area keeps the version history of a particular file that and we can roll back to previous versions to see which change was made in each 
- version
+ version 
