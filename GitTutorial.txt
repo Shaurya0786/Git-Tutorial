@@ -7,3 +7,14 @@ and this .git folder manages the functionality of git
   therefore Change Made in that are Not reflected in it 
 
 
+  2.'Staging Area' -> This is the Area in which it is decided that which Change will go in the next commit and which will Not 
+  so for example that there is a file you have and you staged that file with some changes now git will follow these changes and if the file is modified again while 
+  it is in the staging Staging Area we will have to stage that file again as that changes are Not staged for the next commit  
+     
+     1. git add <fileName> -> to move a file from working area to Staging area
+     
+     2. git rm --cached <fileName> -> to unstage a file 
+ 
+
+ 3.`Repository Area` -> This area keeps the version history of a particular file that and we can roll back to previous versions to see which change was made in each 
+ version
