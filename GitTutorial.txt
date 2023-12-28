@@ -40,3 +40,5 @@ git restore Commands this commad restore us to the last commit version
   
    2.git restore is for reverting back to the previous commit and it also does not remove the git from tracking changes 
      in that file it just revert back to previous commit and get the file in the working area 
+
+9. git diff <Hash1> <Hash2> ->  this command is used if we want to know diffenece between two commits; 
