@@ -21,7 +21,8 @@ and this .git folder manages the functionality of git
 
 4. `Git Log `-> list down all the commits 
 
-5. Once a file is commited all the changes int that file are managed by the git only and it will be already added in the staging area now 
+5. Once a file is commited all the changes int that file are managed by the git only and Not like the first time and this time it will also show changes made in a file 
+in Working too  
 
-6. git restore <FileName> -> Consinder you did some changes and those changes are in the staging area yoou dont want to commit those changes for that we can use 
-git restore Commands this commad  
+6. git restore <FileName> -> Consinder you did some changes and those changes are in the staging area you dont want to commit those changes for that we can use 
+git restore Commands this commad restore us to the last commit version  
