@@ -21,6 +21,9 @@ and this .git folder manages the functionality of git
  version 
 
 4. `Git Log `-> list down all the commits 
+    To get the git logs in lost order we can use command like 
+    git log --all --oneline
+
 
 5. Once a file is commited all the changes int that file are managed by the git only and Not like the first time and this time it will also show changes made in a file 
 in Working too  
