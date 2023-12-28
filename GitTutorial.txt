@@ -53,4 +53,28 @@ git restore Commands this commad restore us to the last commit version
 12. git push <connection-name> <branch-name> -> To push the local repository to a remote repository 
 
 13. git remote <old-name> <new-name> -> To rename a repo Connection
+
 14. git pull <connection-name> <branch-name> ->To pull the changes made to the remote repo to the local repo.
+
+//Recommended Practice 
+  first try to pull before pushing changes of your code to remote repo
+  as then your code will always be updated to latest changes 
+
+  so the order should be 
+  make changes 
+  git add 
+  git commit 
+  git pull 
+  git push 
+
+  or 
+
+  git pull
+  make changes
+  git add
+  git commit 
+  git push
+
+  Also you can not git pull 
+  if the working directory and the staging area are not clean that is there is no modified file is there that is pending to commit 
+  first you would have to commit those changes or it will abort the pull
