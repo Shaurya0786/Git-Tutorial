@@ -48,6 +48,8 @@ git restore Commands this commad restore us to the last commit version
 
 10. git remote -> To See How many and what connections we have to remote repositories
 
-11. git remote add <connection-name(Mostly prefferd orgin for first one)> <repo-link>
+11. git remote add <connection-name(Mostly prefferd orgin for first one)> <repo-link> -> To add a new remote repo Connection
 
-12. git push <connection-name> <branch-name>
+12. git push <connection-name> <branch-name> -> To push the local repository to a remote repository 
+
+13. git remote <old-name> <new-name> -> To rename a repo Connection
