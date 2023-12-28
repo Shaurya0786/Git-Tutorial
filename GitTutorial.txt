@@ -1,0 +1,9 @@
+1. git init -> To Intianlize the functionality of git in a folder we have to use command , This intializzes a .git folder as a hidden folder in this repository
+and this .git folder manages the functionality of git 
+
+2.The Working of Git is divided into 3 Areas 
+  
+  1. `Working Area` -> This is the Area that holds Untraked Files and Folders and File that is in the Working Area is Not Tracked by git and 
+  therefore Change Made in that are Not reflected in it 
+
+
