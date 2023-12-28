@@ -16,5 +16,8 @@ and this .git folder manages the functionality of git
      2. git rm --cached <fileName> -> to unstage a file 
  
 
- 3.`Repository Area` -> This area keeps the version history of a particular file that and we can roll back to previous versions to see which change was made in each 
+3.`Repository Area` -> This area keeps the version history of a particular file that and we can roll back to previous versions to see which change was made in each 
  version 
+
+
+
