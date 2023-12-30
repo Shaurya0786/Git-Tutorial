@@ -33,7 +33,9 @@ when we Stage the file we have all the files generated with a hash but when we c
 details about the inner folder that is the file that were inside that at the time of commit and the HashCode that reffers to this gives us the type tree
 
 but when we commit another HashCode is generated that refferse to the commit that we made it contains auther name time of commit and all and the tyoe of object the hash
-code reffers to is also commit 
+code reffers to is also commit
+
+5. git gc -> Does garbage Collections and creates packt files 
 
 `
 
