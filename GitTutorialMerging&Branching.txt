@@ -2,4 +2,7 @@
 Stashing -> It is a feature of git where if we dont want a particular code to be there in the next commit and we dont want to the chnages to be deleted as they 
 can be used in the future we can do is stash the file 
 
+
+
+These things were Stashed before and the were added after unstashing 
 `
