@@ -31,8 +31,4 @@ also some companies like linkedin have single commit trend where you work in bra
 
 Branching -> it is like tree of branches like have a feature to build we do not build it directly on the main production branch instead we create a new branch for that 
 feature and commit our code there until the feature is build and is not disrupting the production code 
-
-
-
-
 `
