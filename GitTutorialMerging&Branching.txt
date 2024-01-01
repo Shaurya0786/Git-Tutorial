@@ -1,3 +1,4 @@
+
 `
 Stashing -> It is a feature of git where if we dont want a particular code to be there in the next commit and we dont want to the chnages to be deleted as they 
 can be used in the future we can do is stash the file 
@@ -7,15 +8,23 @@ so what stashing does is it will remove the content that is stashed and get the 
 we can stash multiple piece of code and it created a stash list 
 There are various commands of stashing 
  
- 1.git stash -> To stash some piece of code
+   1.git stash -> To stash some piece of code
  
- 2.git stash apply -> gets the latest last stashed code to be applied and gets the file in working directory as modiefied
+   2.git stash apply -> gets the latest last stashed code to be applied and gets the file in working directory as modiefied
  
- 3.git stash list -> we can get the list of that is stashed piece of code 
+   3.git stash list -> we can get the list of that is stashed piece of code 
 
- 4.git stash apply stash@{number} -> if we want to apply a particular stashed piece of code 
+   4.git stash apply stash@{number} -> if we want to apply a particular stashed piece of code 
 
+   5.git stash --include-untracked -> to also stash the unstashed files
 
+   6.git stash --fileName -> to stash a particular file in the staging area
 
+ There are various other commands such as pop clear and save that help in clearing the stash , changing the stash message 
+ 
+Now we can also change the preivous commit that if we wanted to add some file and that file didnt got committed the there is a command called 
+
+git commit --amend -> it adds all the stage files in the previous commit so we dont have to do that commit again 
+as the commit content is changes here a new commit hashcode is generated and that hashcpde now points to a new commit object rather that the preivous one 
 
 `
