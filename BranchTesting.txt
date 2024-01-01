@@ -1,2 +1,4 @@
-This is a file for testing the feature of a branches
+This is a file for testing the feature of a branches 
+
+adding a commit for feature 1
 
