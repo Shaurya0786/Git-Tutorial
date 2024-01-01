@@ -26,6 +26,12 @@ Now we can also change the preivous commit that if we wanted to add some file an
 
 git commit --amend -> it adds all the stage files in the previous commit so we dont have to do that commit again 
 as the commit content is changes here a new commit hashcode is generated and that hashcpde now points to a new commit object rather that the preivous one 
+this helps in not creating new commits for mirror changes also 
+also some companies like linkedin have single commit trend where you work in branches and then commit the changes to previous commit 
+
+Branching -> it is like tree of branches like have a feature to build we do not build it directly on the main production branch instead we create a new branch for that 
+feature and commit our code there until the feature is build and is not disrupting the production code 
+
 
 
 
